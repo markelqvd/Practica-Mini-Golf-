@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Golf
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73e7feea75218f842975c1e4a7b81bb6, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -147,5 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454a7af430c5c6d4380067e75801ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxForce: 1000
+  maxForce: 100
   arrowPrefab: {fileID: 3720353852598430564, guid: f6e8398c16dcd8e419e7cad110faae22, type: 3}
+  slowDownMultiplier: 2
+  minVelocity: 0.05
+  shotDelay: 0.2
+  arrowInstance: {fileID: 0}

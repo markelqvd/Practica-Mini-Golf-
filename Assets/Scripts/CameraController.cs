@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target; // la bola
+    public Transform target; //La bola
     public Vector3 offset = new Vector3(0, 3, -6);
     public float rotationSpeed = 5f;
     public float zoomSpeed = 2f;
@@ -17,7 +17,8 @@ public class CameraController : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Input.GetMouseButton(1)) // botón derecho
+        //Click derecho
+        if (Input.GetMouseButton(1))
         {
             currentX += Input.GetAxis("Mouse X") * rotationSpeed;
             currentY -= Input.GetAxis("Mouse Y") * rotationSpeed;
